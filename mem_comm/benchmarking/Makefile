@@ -1,9 +1,8 @@
 output: benchmarking.o
-	g++
-	 -Wall -Werror -Wextra -pedantic -O0 -O3 -S -g benchmarking.o -o output
+	gcc -Wall -Werror -Wextra -pedantic -O0 -g benchmarking.o -o output
 
-benchmarking.o: benchmarking.cc
-	g++ -cc benchmarking.cc
+benchmarking.o: benchmarking.c
+	gcc -c benchmarking.c
 
 clean:
 	rm *.o output
