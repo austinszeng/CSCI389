@@ -1,10 +1,16 @@
-#include "dissemination.h"
+#include "dissemination.hh"
 
-const int rounds = ceil(log2(P));
-bool flags[P][2][rounds]; // allocated in local storage per thread
-local bool sense = false;
-local int parity = 0;
-void barrier()
+using namespace std;
+
+void dissemination(int P)
+{
+    const int rounds = ceil(log2(P));
+    bool flags[P][2][rounds]; // allocated in local storage per thread
+    local bool sense = false;
+    local int parity = 0;
+}
+
+void barrier(int P)
 {
     for (i = 0; i < rounds - 1; i++)
     {

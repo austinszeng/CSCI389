@@ -1,17 +1,22 @@
-#include "test_barriers.h"
+#include "test_barriers.hh"
 
-void centralized(){
+#include <cmath>
+#include <thread>
+
+void centralized()
+{
     /* test barrier */
 }
 
-void dissemination(){
+void dissemination()
+{
     /* test barrier */
 }
 
-void mcs(){
+void mcs()
+{
     /* test barrier */
 }
-
 
 int main(int argc, char *argv[])
 {
@@ -23,7 +28,7 @@ int main(int argc, char *argv[])
 
     int P = atoi(argv[1]);
 
-    //Testing
+    // Testing
     centralized();
     dissemination();
     mcs();

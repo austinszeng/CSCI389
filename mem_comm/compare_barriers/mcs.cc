@@ -1,4 +1,6 @@
-#include "mcs.h"
+#include "mcs.hh"
+
+using namespace std;
 
 // This is currently the rough implementation of a tournament barrier
 void barrier(int tid)
