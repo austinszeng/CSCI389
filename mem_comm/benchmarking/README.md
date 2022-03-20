@@ -17,7 +17,8 @@
 
 ## Analysis
 - Since there seems to be an increase in Mean Latency per Memory Read between a buffer size of 100 KB and 1000 KB, the L1 cache in my CPU is around 100 KB. It's less clear what size the L2 and L3 caches would be, but the L2 cache should also around 100 KB - 1000 KB and the L3 cache around 10000 KB - 100000 KB.
-- The actual CPU cache sizes of my computer are as follows:
+- The actual CPU cache sizes of my computer are as follows
+
 | CPU Caches    | Size              |
 | ------------- |:-----------------:|
 | L1            | 64 KB (per core)  |
