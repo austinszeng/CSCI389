@@ -2,6 +2,10 @@
 
 using namespace std;
 
+void mcs(int P){
+    /* */
+}
+
 // This is currently the rough implementation of a tournament barrier
 void barrier(int tid)
 {

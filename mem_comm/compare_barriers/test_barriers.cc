@@ -29,9 +29,9 @@ int main(int argc, char *argv[])
     int P = atoi(argv[1]);
 
     // Testing
-    centralized();
-    dissemination();
-    mcs();
+    centralized(P);
+    dissemination(P);
+    mcs(P);
 
     return 0;
 }

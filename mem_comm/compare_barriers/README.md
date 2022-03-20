@@ -1,4 +1,6 @@
 # Comparing Barriers
+- I'm sorry I have no idea what I'm doing, these are all just outlines 
+
 ## Program Overview:
 - Implement the following barriers: 
     1. Centralized Barrier
